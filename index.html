@@ -6,38 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
     <title>EduJoy</title>
-
-
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="public/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="public/assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
+    <link href="public/assets/css/theme.css" rel="stylesheet" />
+    <!-- [Metadata and links omitted for brevity] -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        color: #333;
+      }
+      .navbar {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+      .card {
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      }
+      /* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
 
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <link href="assets/css/theme.css" rel="stylesheet" />
-
+    </style>
   </head>
 
 
   <body>
-
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
     <main class="main" id="top">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
         <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="index.html">
@@ -52,62 +65,52 @@
               <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#faq">FAQ</a></li>
             </ul>
             <form class="ps-lg-5">
-              <button class="btn btn-lg btn-primary rounded-pill order-0" type="submit">Book a meeting</button>
+              <a href="https://calendly.com/" class="btn btn-lg btn-primary rounded-pill order-0" type="submit">Book a meeting</a>
             </form>
           </div>
         </div>
       </nav>
       <section class="py-0" id="home">
-        <div class="bg-holder" style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
+        <div class="bg-holder" style="background-image:url(public/assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
         </div>
-        <!--/.bg-holder-->
 
         <div class="container position-relative">
           <div class="row align-items-center py-8">
-            <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="assets/img/illustrations/coupang.png" width="350" alt="" /></div>
-            <div class="col-md-7 col-lg-6 text-center text-md-start"><span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Guide For Beginners<img class="img-fluid float-start me-3" src="assets/img/illustrations/arrow-right.png" alt=""/></span>
+            <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="public/assets/img/illustrations/coupang.png" width="350" alt="" /></div>
+            <div class="col-md-7 col-lg-6 text-center text-md-start"><span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Guide For Beginners<img class="img-fluid float-start me-3" src="public/assets/img/illustrations/arrow-right.png" alt=""/></span>
               <h1 class="mb-4 display-3 fw-bold lh-sm">How to sell on Coupang <br class="d-block d-lg-none d-xl-block" /> with EduJoy</h1>
-              <p class="mt-3 mb-4 fs-1">Learn how to make money online with Coupang.<br /> EduJoy has the step-by-step guidance and tools you need to succeed.<br class="d-none d-lg-block" /></p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Learn More</a><a class="btn btn-link ps-md-4" href="#" role="button"> </a>
+              <p class="mt-3 mb-4 fs-1">Learn how to make money online with Coupang.<br /> EduJoy has the step-by-step guidance and tools you need to succeed.<br class="d-none d-lg-block" /></p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#insta" role="button">Contact us</a><a class="btn btn-link ps-md-4" href="#" role="button"> </a>
             </div>
           </div>
         </div>
       </section>
 
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-
-        <!-- end of .container-->
-
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
 
       <section class="py-5" id="features">
         <div class="container-lg">
           <div class="row align-items-center">
-            <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/rocket.jpeg" width="550" alt="" /></div>
+            <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="public/assets/img/illustrations/rocket.jpeg" width="550" alt="" /></div>
             <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
               <h6 class="fw-bold fs-4 display-3 lh-sm">Welcome to Coupang<br /></h6>
               <h4 class="fw-light">Largest online Marketplace in Korea</h4>
-              <p class="my-4">Coupang is often referred to as the "Amazon of South Korea", due to its position and corporate size in the South Korean online market<br class="d-none d-xl-block" /></p>
+              <p class="my-4">Coupang is often referred to as the "Amazon of South Korea", due to its position in the Korean online market<br class="d-none d-xl-block" /></p>
               <div class="d-flex align-items-center mb-5">
-                <div><img class="img-fluid" src="assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
+                <div><img class="img-fluid" src="public/assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
                 <div class="px-4">
                   <h5 class="fw-bold text-danger">Rocket Delivery</h5>
                   <p>Small businesses are a big deal at Coupang, <br class="d-none d-xl-block"> making up 80% of total sellers!<br class="d-none d-xl-block"> </p>
                 </div>
               </div>
               <div class="d-flex align-items-center mb-5">
-                <div><img class="img-fluid" src="assets/img/illustrations/prototype.png" width="90" alt="" /></div>
+                <div><img class="img-fluid" src="public/assets/img/illustrations/prototype.png" width="90" alt="" /></div>
                 <div class="px-4">
                   <h5 class="fw-bold text-primary">Coupang has over 20 million customer</h5>
                   <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
                 </div>
               </div>
               <div class="d-flex align-items-center mb-5">
-                <div><img class="img-fluid" src="assets/img/illustrations/vector.png" width="90" alt="" /></div>
+                <div><img class="img-fluid" src="public/assets/img/illustrations/vector.png" width="90" alt="" /></div>
                 <div class="px-4">
                   <h5 class="fw-bold text-success">Vector Editing</h5>
                   <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
@@ -118,9 +121,6 @@
         </div>
       </section>
 
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
       <section class="py-5">
 
         <div class="container">
@@ -134,39 +134,9 @@
           </div>
 
         </div>
-        <!-- end of .container-->
 
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
 
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-     <!-- <section class="py-6">
-
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/call-to-action.png" width="550" alt="" /></div>
-            <div class="col-md-6 text-center text-md-start offset-md-1">
-              <h6 class="fw-bold fs-4 display-3 lh-sm">Designed &amp; built by<br />the latest code <br />integration</h6>
-              <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Learn more</a>
-            </div>
-          </div>
-        </div>
-        &lt;!&ndash; end of .container&ndash;&gt;
-
-      </section>-->
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
       <section class="py-6">
 
         <div class="container">
@@ -178,108 +148,46 @@
           </div>
           <div class="row">
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/app.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="public/assets/img/illustrations/app.png" width="90" alt="" />
                 <h5 class="fw-bold">Perfect for Beginners</h5>
                 <p class="mb-md-0">Start fast, earn fast.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/time-award.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="public/assets/img/illustrations/time-award.png" width="90" alt="" />
                 <h5 class="fw-bold">10 times faster</h5>
                 <p class="mb-md-0">We teach all the details, shortcuts</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/cloud.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="public/assets/img/illustrations/cloud.png" width="90" alt="" />
                 <h5 class="fw-bold">Save $4000</h5>
                 <p class="mb-md-0">We will teach how can you save up to $4000.</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/customization.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="public/assets/img/illustrations/customization.png" width="90" alt="" />
                 <h5 class="fw-bold">Support on Product purchase</h5>
                 <p class="mb-md-0">We will help to purchase products at cheap prices</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/ux.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="public/assets/img/illustrations/ux.png" width="90" alt="" />
                 <h5 class="fw-bold">Better Advertisement</h5>
                 <p class="mb-md-0">How to be on the top of the searching list</p>
               </div>
             </div>
             <div class="col-md-4 mb-6">
-              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/support.png" width="90" alt="" />
+              <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="public/assets/img/illustrations/support.png" width="90" alt="" />
                 <h5 class="fw-bold">Customer Support</h5>
                 <p class="mb-md-0">We will be consulting for free in the first 4 months, after the course ending</p>
               </div>
             </div>
           </div>
         </div>
-        <!-- end of .container-->
 
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
 
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <!--<section class="py-6">
-
-        <div class="container">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-5 order-md-1 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/ultimate-feature.png" alt="" /></div>
-              <div class="col-md-6 text-center text-md-start">
-                <h6 class="fw-bold fs-4 display-3 lh-sm">Ultimate features<br />that we built</h6>
-                <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume information entirely.</p>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/app.png" width="90" alt="" /></div>
-                      <h5 class="fw-bold text-undefined">App Development</h5>
-                      <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/ux.png" width="90" alt="" /></div>
-                      <h5 class="fw-bold text-undefined">UX Planning</h5>
-                      <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/cloud.png" width="90" alt="" /></div>
-                      <h5 class="fw-bold text-undefined">Cloud Storage</h5>
-                      <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="mb-4">
-                      <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/support.png" width="90" alt="" /></div>
-                      <h5 class="fw-bold text-undefined">Customer support</h5>
-                      <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                  </div>
-                </div><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">See all</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        &lt;!&ndash; end of .container&ndash;&gt;
-
-      </section>-->
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
       <section class="py-8" id="pricing">
 
         <div class="container">
@@ -313,7 +221,7 @@
                     <li class="text-700 py-2 text-secondary">1,000's of Documentation</li>
                     <li class="text-700 py-2 text-secondary"> Support Tools</li>
                     <li class="text-700 py-2 text-secondary">Coupang Store </li>
-                  </ul><a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Start</a>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -332,23 +240,19 @@
                     <li class="text-700 py-2 text-secondary">Support</li>
                     <li class="text-700 py-2 text-secondary">Documentation </li>
                   </ul>
-                  <div class="d-flex flex-column"> <a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Start</a><a href="#">get free consultation now</a></div>
+                  <div class="d-flex flex-column"> <a href="#">get free consultation now</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- end of .container-->
 
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
 
       <section class="py-8" id="testimonial">
         <div class="container-lg">
           <div class="row flex-center">
-            <div class="col-sm-10 col-md-5 col-lg-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/testimonial.png" alt="" /></div>
+            <div class="col-sm-10 col-md-5 col-lg-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="public/assets/img/illustrations/testimonial.png" alt="" /></div>
             <div class="col-sm-10 col-md-6 col-lg-6 text-center text-md-start offset-md-1">
               <h6 class="fw-bold fs-4 display-3 lh-sm"> Our Students <br /></h6>
               <p class="my-4 pe-xl-5"> I took a course from EduJoy, now earning 1000$ passive income </p>
@@ -376,7 +280,7 @@
                         <p class="mb-0 text-center text-md-start">At first, i had no idea from what to start, how to documentation, taxes, and etc. With the help of edujoy i started selling very quickly</p>
                       </div>
                       <div class="col-xl-6 pt-4 d-flex d-sm-block flex-center">
-                        <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user.png" width="100" alt="" />
+                        <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="public/assets/img/gallery/user.png" width="100" alt="" />
                           <div class="w-lg-50 my-3">
                             <h5 class="mb-0 fw-bold">Argen Adenov</h5>
                             <p class="fw-normal mb-0">CEO of GlobalKG</p>
@@ -407,41 +311,10 @@
                         <p class="mb-0 text-center text-md-start">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                       </div>
                       <div class="col-xl-6 pt-4 d-flex d-sm-block flex-center">
-                        <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user-1.png" width="100" alt="" />
+                        <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="public/assets/img/gallery/user-1.png" width="100" alt="" />
                           <div class="w-lg-50 my-3">
                             <h5 class="mb-0 fw-bold">Jhon Doe</h5>
                             <p class="fw-normal mb-0">Web Developer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row h-100">
-                      <div class="col-12">
-                        <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                        </svg>
-                        <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                        </svg>
-                        <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                        </svg>
-                        <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                        </svg>
-                        <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                        </svg>
-                        <h5 class="my-4 fw-bold lh-sm">User friendly &amp; Customizable</h5>
-                        <p class="mb-0 text-center text-md-start">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                      </div>
-                      <div class="col-xl-6 pt-4 d-flex d-sm-block flex-center">
-                        <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user-2.png" width="100" alt="" />
-                          <div class="w-lg-50 my-3">
-                            <h5 class="mb-0 fw-bold">Viezh Robert</h5>
-                            <p class="fw-normal mb-0">UI/UX Designer</p>
                           </div>
                         </div>
                       </div>
@@ -455,9 +328,6 @@
         </div>
       </section>
 
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
       <section class="py-8" id="faq">
 
         <div class="container">
@@ -498,30 +368,9 @@
             </div>
           </div>
         </div>
-        <!-- end of .container-->
 
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
 
-
-     <!-- <section class="py-6">
-        <hr />
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-5 col-lg-7 order-md-1 text-center text-md-start z-index-2 cta-image"><img class="img-fluid mb-4 mb-md-0" src="assets/img/illustrations/cta.png" width="850" alt="" /></div>
-            <div class="col-md-7 col-lg-5 text-center text-md-start">
-              <h1 class="display-3 fw-bold lh-sm">Download our App now</h1>
-              <p class="my-4"> The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-              <div class="d-flex justify-content-center d-md-inline-block"><a class="pe-2 pe-sm-3 pe-md-4" href="!#"><img src="assets/img/illustrations/google-play.png" width="160" alt="" /></a><a href="!#"><img src="assets/img/illustrations/app-store.png" width="160" alt="" /></a></div>
-            </div>
-          </div>
-        </div>
-      </section>
--->
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
       <section class="py-2 bg-1000">
 
         <div class="container">
@@ -530,7 +379,7 @@
 
               </a></div>
           </div>
-          <div class="row flex-center">
+          <div class="row flex-center" id="insta">
             <div class="col-auto mb-3"><a class="pe-2 d-flex align-items-center text-decoration-none fw-bold fs-3" href="#">
                 <div class="text-white">Contact us</div>
               </a></div>
@@ -547,29 +396,15 @@
             </div>
           </div>
         </div>
-        <!-- end of .container-->
 
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
 
     </main>
-    <!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
-
-
-
-
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="vendors/@popperjs/popper.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
+    <script src="public/vendors/@popperjs/popper.min.js"></script>
+    <script src="public/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="public/vendors/is/is.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="public/assets/js/theme.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
   </body>
