@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EduJoy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="public/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="public/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="public/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="public/assets/css/theme.css" rel="stylesheet" />
+    <!-- [Metadata and links omitted for brevity] -->
+    <style>
+\.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-section .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-section .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-section button.btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-section .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+
+
+    </style>
+  </head>
+
+
+  <body>
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="index.html">
+      <div class="text-1000">Edu</div><div class="text-1000">Joy</div>
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="/index.html">Home</a></li>
+        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="index.html#pricing">Pricing</a></li>
+        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="contact.html">Contact</a></li>
+        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="index.html#faq">FAQ</a></li>
+      </ul>
+      <form class="ps-lg-5">
+        <a href="https://calendly.com/" class="btn btn-lg btn-primary rounded-pill order-0" type="submit">Book a meeting</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+        <section class="contact-section pt-5">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <h2 class="text-center mb-8"></h2>
+              <h2 class="text-center mb-8">Contact Us</h2>
+              <form action="your-server-side-code.php" method="post">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="name">Name:</label>
+                              <input type="text" id="name" name="name" class="form-control" required>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" id="email" name="email" class="form-control" required>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" class="form-control" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- ... (rest of your HTML content for contact.html) ... -->
+
+<!-- Start of Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+
+  <!-- Footer main content -->
+  <section class="py-4 bg-1000">
+    <div class="container">
+      <div class="row flex-center">
+        <!-- Footer content here -->
+        <div class="col-auto mb-2">
+          <a class="pe-2 d-flex align-items-center text-decoration-none fw-bold" href="#">
+            <div class="text-white">EduJoy 2024</div>
+          </a>
+        </div>
+      </div>
+      <div class="row flex-center">
+        <div class="col-auto mb-2">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item me-3">
+              <a href="https://instagram.com">
+                <!-- Instagram SVG icon here -->
+              </a>
+            </li>
+            <!-- Additional social icons here -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+<!-- End of Footer -->
+
+<!-- Scripts -->
+<script src="public/vendors/@popperjs/popper.min.js"></script>
+<script src="public/vendors/bootstrap/bootstrap.min.js"></script>
+<script src="public/vendors/is/is.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+<script src="public/assets/js/theme.js"></script>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
+
+</body>
+</html>
+
+
+    </main>
+    <script src="public/vendors/@popperjs/popper.min.js"></script>
+    <script src="public/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="public/vendors/is/is.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="public/assets/js/theme.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
+  </body>
+
+</html>
